@@ -1,0 +1,17 @@
+header
+  nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top
+    .container
+      a(href="./").navbar-brand <b><span class="logo-white">WISS</span> <span class="logo-white">2021</span></b>
+      button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbars-menu' aria-controls='navbars-menu' aria-expanded='false' aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbars-menu.collapse.navbar-collapse
+        ul.navbar-nav
+          each category in menu_data
+            li.nav-item.dropdown
+              a.nav-link.dropdown-toggle(href='./' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' id="dropdown-" + category["label"]) #{category["category_name"]}
+              .dropdown-menu(aria-labelledby="dropdown-" + category["label"])
+                each page in category["pages"]
+                  if page["url"].length == 0
+                    a.dropdown-item.disabled #{page["name"]}
+                  else 
+                    a.dropdown-item(href=page["url"]) #{page["name"]}

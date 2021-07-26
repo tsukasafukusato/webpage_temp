@@ -1,0 +1,17 @@
+- 
+  const sponsors = [
+    {
+      name: "Name",
+      link: "https://hogehoge",
+      logo: "template_sponser",
+    },
+  ]
+
+h2 企業スポンサー（五十音順）
+.row
+  each sponsor in sponsors
+    - const image_path = "./assets/sponsors/" + sponsor["logo"] + ".png"
+    .col-lg-4.col-md-6.col-12.text-center
+      a(href=sponsor["link"])
+        img.img-fluid(src=image_path alt=sponsor["name"])
+        p #{sponsor["name"]}

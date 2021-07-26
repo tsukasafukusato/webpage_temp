@@ -1,0 +1,92 @@
+- var page_title = "WISS 2021: 第29回インタラクティブシステムとソフトウェアに関するワークショップ"
+
+- 
+  var chairs = [
+    {
+      role: "プログラム委員長",
+      name: "寺田 努",
+      affiliation: "神戸大学",
+      keywords: ["ウェアラブルコンピューティング", "エンタテインメントコンピューティング", "情報提示"],
+      link: "http://tt-lab.jp/terada/",
+      image: "terada"
+    }, 
+    {
+      role: "実行委員長",
+      name: "真鍋 宏幸",
+      affiliation: "芝浦工業大学",
+      keywords: ["入出力デバイス", "ファブリケーション"],
+      link: "http://pai.ise.shibaura-it.ac.jp/",
+      image: "manabe"
+    },
+    {
+      role: "副実行委員長",
+      name: "村尾 和哉",
+      affiliation: "立命館大学",
+      keywords: ["ウェアラブル・ユビキタス", "人間行動認識", "ユーザインタフェース"],
+      link: "http://muraokazuya.net/",
+      image: "murao"
+    }
+  ]
+
+doctype html
+html(lang=ja)
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0')
+    include includes/seo
+    title #{page_title}
+    include includes/bootstrap-css
+    link(rel="stylesheet" href="./css/override.css")
+  body
+    include includes/header
+    .container.nav-padding.content
+      h1 WISS委員一覧
+      h2 WISS 2021実行委員
+      each chair in chairs
+        .row
+          .col-md-2.col-4
+            - var image_name = (chair["image"].length == 0) ? "placeholder" : chair["image"];
+            - var image_path = "./assets/committee/" + image_name + ".jpg"
+            img.img-fluid.rounded(src=image_path style="margin-bottom: 10px;")
+          .col
+            h5 #{chair["role"]}
+            ul.list-unstyled
+              li
+                - var link = (chair["link"].length == 0) ? "" : "<small><a href=\"" + chair["link"] + "\">[web]</a></small>"
+                <b>#{chair["name"]}</b> !{link}
+              li
+                <b>所属：</b>#{chair["affiliation"]}
+              li
+                - var keywords = (chair["keywords"].length == 0) ? "" : chair["keywords"].join("，")
+                <b>専門：</b>#{keywords}
+      hr
+      .row
+        each members, role in organizing_committee_data
+          .col-md-3.col-sm-4.col-6
+            h5 #{role}
+            p #{members.toString().replace(",", "，")}
+      h2 WISS 2021プログラム委員
+      .row
+        each member in program_committee_data
+          .col-md-2.col-4
+            - var image_name = (member["image"].length == 0) ? "placeholder" : member["image"];
+            - var image_path = "./assets/committee/" + image_name + ".jpg"
+            img.img-fluid.rounded(src=image_path style="margin-bottom: 10px;")
+            h6 
+              | #{member["name"]}
+              |
+              if (member["link"].length != 0) 
+                small: a(href=member["link"]) [web]
+            ul.list-unstyled
+              - var affiliations = []
+              - if (member["affiliation1"].length != 0) { affiliations.push(member["affiliation1"]); }
+              - if (member["affiliation2"].length != 0) { affiliations.push(member["affiliation2"]); }
+              - if (member["affiliation3"].length != 0) { affiliations.push(member["affiliation3"]); }
+              li <b>所属：</b>#{affiliations.join("，")}
+              - var keywords = []
+              - if (member["keyword1"].length != 0) { keywords.push(member["keyword1"]); }
+              - if (member["keyword2"].length != 0) { keywords.push(member["keyword2"]); }
+              - if (member["keyword3"].length != 0) { keywords.push(member["keyword3"]); }
+              li <b>専門：</b>#{keywords.join("，")}
+    include includes/footer
+    include includes/bootstrap-js

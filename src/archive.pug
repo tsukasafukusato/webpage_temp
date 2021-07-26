@@ -1,0 +1,48 @@
+- var page_title = "WISS 2021: 第29回インタラクティブシステムとソフトウェアに関するワークショップ"
+- 
+  var data = [
+    { "name": "WISS 2020", "images": [ "wiss2020.png" ], "url": "https://wiss.org/WISS2020/" },
+    {
+      "name": "WISS 2019",
+      "images": [ "wiss2019top.png", "wiss2019logo.png" ],
+      "url": "https://wiss.org/WISS2019/",
+    },
+    { "name": "WISS 2018", "images": [ "wiss2018.png" ], "url": "https://wiss.org/WISS2018/" },
+    { "name": "WISS 2017", "images": [ "wiss2017.png" ], "url": "https://wiss.org/WISS2017/" },
+    { "name": "WISS 2016", "images": [ "wiss2016.png" ], "url": "https://wiss.org/WISS2016/" },
+    { "name": "WISS 2015", "images": [ "wiss2015.png" ], "url": "https://wiss.org/WISS2015/" },
+    { "name": "WISS 2014", "images": [ "wiss2014.png" ], "url": "https://wiss.org/WISS2014/" },
+    { "name": "WISS 2013", "images": [ "wiss2013.png" ], "url": "https://wiss.org/WISS2013/" },
+    { "name": "WISS 2012", "images": [ "wiss2012.png" ], "url": "https://wiss.org/WISS2012/" },
+    { "name": "WISS 2011", "images": [ "wiss2011.png" ], "url": "https://wiss.org/WISS2011/" },
+    { "name": "WISS 2010", "images": [ "wiss2010.png" ], "url": "https://wiss.org/WISS2010/" },
+    { "name": "WISS 2009", "images": [ "wiss2009.png" ], "url": "https://wiss.org/WISS2009/" },
+    { "name": "WISS 2008", "images": [ "wiss2008.png" ], "url": "https://wiss.org/WISS2008/" },
+    { "name": "WISS 2007", "images": [ "wiss2007.png" ], "url": "https://wiss.org/WISS2007/" },
+    { "name": "WISS 2006", "images": [ "wiss2006.png" ], "url": "https://wiss.org/WISS2006/" },
+    { "name": "WISS 2005", "images": [ "wiss2005.png" ], "url": "https://wiss.org/WISS2005/" },
+    { "name": "WISS 2004", "images": [ "wiss2004.png" ], "url": "https://wiss.org/WISS2004/" },
+  ]
+
+doctype html
+html(lang=ja)
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0')
+    include includes/seo
+    title #{page_title}
+    include includes/bootstrap-css
+    link(rel="stylesheet" href="./css/override.css")
+  body
+    include includes/header
+    .container.nav-padding.content
+      h1 過去のWISS
+      each datum in data
+        h2 #{datum["name"]}
+        p
+          a(href=datum["url"]) ウェブページ
+        each image in datum["images"]
+          a(href="./assets/originals/" + image)
+            img(src="./assets/thumbnails/" + image style="max-width: 320px; max-height: 320px;").img-thumbnail.rounded
+    include includes/footer
+    include includes/bootstrap-js

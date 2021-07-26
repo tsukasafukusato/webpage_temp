@@ -1,0 +1,39 @@
+- category_name: 著者の方へ
+  pages:
+  - name: 論文募集
+    url: "./call-for-papers.html"
+  - name: 査読方針
+    url: "./review-policy.html"
+  - name: 査読フォーム
+    url: "./review-form.html"
+  label: for-authors
+- category_name: プログラム
+  pages:
+  - name: 全体スケジュール・登壇発表・査読なし発表（準備中）
+    url: ""
+  label: program
+- category_name: 動画中継
+  pages:
+  - name: 1日目（準備中）
+    url: ""
+  - name: 2日目（準備中）
+    url: ""
+  - name: 3日目（準備中）
+    url: ""
+  label: live-streaming
+- category_name: 予稿集
+  pages:
+  - name: ウェブ予稿集（準備中）
+    url: ""
+  - name: 電子予稿集（準備中）
+    url: ""
+  label: proceedings
+- category_name: WISSについて
+  pages:
+  - name: 過去のWISS
+    url: "./archive.html"
+  - name: 公式ツイッター
+    url: "https://twitter.com/wiss_official"
+  - name: WISS委員一覧
+    url: "./committee.html"
+  label: about-wiss

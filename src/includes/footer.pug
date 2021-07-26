@@ -1,0 +1,15 @@
+footer
+  .container
+    .row
+      each category in menu_data
+        .col-4.col-sm
+          h2 #{category["category_name"]}
+          ul.list-unstyled
+            each page in category["pages"]
+              if page["url"].length == 0
+                li <a class="disabled">#{page["name"]}</a>
+              else
+                li <a href="#{page["url"]}">#{page["name"]}</a>
+    hr
+    p.text-center &copy; WISS 2021実行委員会
+    p.text-center Contribute to this page on <a href="https://github.com/WISSOrg/web2021">GitHub</a> (PRs welcome).

@@ -1,0 +1,113 @@
+$color-1: rgb(174, 61, 100)
+$color-2: rgb(26, 22, 46)
+$color-3: rgb(68, 84, 100)
+$color-4: rgb(54, 51, 52)
+$color-5: rgb(0, 140, 161)
+$color-6: rgb(200, 200, 200)
+
+$color-dark: $color-2
+$color-light: change-color($color-3, $lightness: 95%)
+$color-jumbo-bg: mix($color-2, $color-5, 50%)
+$primary-bg: change-color($color-3, $lightness: 85%, $saturation: 45%)
+
+@font-face
+    font-family: 'Noto Sans Japanese'
+    font-style: normal
+    font-weight: 300
+    src: url(https://fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-DemiLight.woff2) format('woff2'), url(https://fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-DemiLight.woff) format('woff'), url(https://fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-DemiLight.otf) format('opentype')
+
+@font-face
+    font-family: 'Noto Sans Japanese'
+    font-style: normal
+    font-weight: 700
+    src: url(https://fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.woff2) format('woff2'), url(https://fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.woff) format('woff'), url(https://fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.otf) format('opentype')
+
+*
+    font-family: 'Noto Sans Japanese', arial, sans-serif
+    font-feature-settings: "palt" 1
+    overflow-wrap: break-word
+    word-wrap: break-word
+    -ms-hyphens: auto
+    -moz-hyphens: auto
+    -webkit-hyphens: auto
+    hyphens: auto
+
+.navbar
+    background-color: $color-dark !important
+
+a
+    transition: ease-in-out color .10s
+
+a:hover
+    text-decoration: none
+
+h1, h2, h3, h4, h5, h6
+    font-weight: bold
+
+.alert-primary
+    background-color: $primary-bg
+
+.content > h1
+    font-size: 2.3em
+    margin-bottom: 32px
+
+.content > h2
+    font-size: 1.5em
+    border-bottom: solid 2px $color-dark
+    margin-top: 32px
+    margin-bottom: 24px
+
+.content > h3
+    font-size: 1.2em
+    margin-bottom: 12px
+
+body
+    background-color: $color-light
+    color: $color-dark
+
+.jumbotron
+    overflow: hidden
+    position: relative
+    background-color: $color-3
+    padding-top: 100px + 50px
+    padding-bottom: 100px
+    border-radius: 0rem
+    color: $color-6
+
+.nav-padding
+    padding-top: 56px + 64px
+
+.logo-pink
+    color: $color-1
+
+.logo-blue
+    color: $color-5
+
+table
+    margin-top: 24px
+    margin-bottom: 24px
+
+pre
+    background-color: rgba(200, 200, 200, 0.2)
+    padding: 12px
+
+footer
+    text-align: left
+    background-color: $color-dark !important
+    color: rgba(255, 255, 255, 0.6)
+    margin-top: 64px
+    padding-top: 6em
+    padding-bottom: 6em
+    font-size: 0.9rem
+
+footer a
+    color: rgba(205, 205, 255, 0.6)
+
+footer a:hover
+    color: rgba(205, 205, 255, 0.8)
+
+footer h1
+    font-size: 2em
+
+footer h2
+    font-size: 1.2em
