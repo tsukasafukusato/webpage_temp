@@ -7,6 +7,13 @@
   - name: 査読フォーム
     url: "./review-form.html"
   label: for-authors
+- category_name: 参加募集
+  pages:
+  - name: 参加募集（準備中）
+    url: ""
+  - name: 表紙デザイン募集
+    url: "./design-competition.html"
+  label: for-participants
 - category_name: プログラム
   pages:
   - name: 全体スケジュール・登壇発表・査読なし発表（準備中）
