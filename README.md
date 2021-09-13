@@ -1,10 +1,10 @@
-# web2020
+# web2021
 
 ![Build and Deploy](https://github.com/WISSOrg/web2020/workflows/Build%20and%20Deploy/badge.svg)
 
 __Warning: This repository may contain information that has not officially been confirmed.__
 
-WISS 2020 web page.
+WISS 2021 web page.
 
 ## Principles
 
@@ -53,14 +53,6 @@ The changes pushed to the master branch will be automatically deployed to GitHub
 For simplicity, this website uses the vanilla Bootstrap 4 framework distributed via CDN with a custom CSS that overwrites some attributes.
 
 ## Design
-
-### Colors
-
-- `#AE3D64` = `rgba(174, 61, 100, 1.0)`
-- `#1A162E` = `rgba(26, 22, 46, 1.0)`
-- `#A7A9AC` = `rgba(167, 169, 172, 1.0)`
-- `#363334` = `rgba(54, 51, 52, 1.0)`
-- `#008CA1` = `rgba(0, 140, 161, 1.0)`
 
 ## License
 
