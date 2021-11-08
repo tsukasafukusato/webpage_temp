@@ -47,7 +47,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .content > h3 {
   font-size: 1.2em;
+  margin-top: 20px;
   margin-bottom: 12px; }
+
+.content > h4 {
+  font-size: 1.0em;
+  margin-top: 20px;
+  margin-bottom: 10px; }
 
 body {
   background-color: #f0f2f5;
@@ -72,8 +78,18 @@ body {
   color: #008ca1; }
 
 table {
-  margin-top: 24px;
-  margin-bottom: 24px; }
+  background-color: rgba(200, 200, 200, 0.2);
+  border: solid 2px #1a162e;
+  text-align: center;
+  width: 100%;
+  height: 50px; }
+
+td {
+  border: solid 1px #1a162e; }
+
+th {
+  background: rgba(150, 150, 150, 0.2);
+  border: solid 1px #1a162e; }
 
 pre {
   background-color: rgba(200, 200, 200, 0.2);
