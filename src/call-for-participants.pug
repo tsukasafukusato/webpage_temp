@@ -1,0 +1,17 @@
+- var page_title = "WISS 2021: 第29回インタラクティブシステムとソフトウェアに関するワークショップ"
+
+doctype html
+html(lang=ja)
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0')
+    include includes/seo
+    title #{page_title}
+    include includes/bootstrap-css
+    link(rel="stylesheet" href="./css/override.css")
+  body
+    include includes/header
+    .container.nav-padding.content
+      include:markdown-it(html=true typographer=true) md/call-for-participants.md
+    include includes/footer
+    include includes/bootstrap-js

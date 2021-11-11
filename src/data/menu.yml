@@ -9,8 +9,8 @@
   label: for-authors
 - category_name: 参加募集
   pages:
-  - name: 参加募集（準備中）
-    url: ""
+  - name: 参加募集
+    url: "./call-for-participants.html"
   - name: 参加形態と新型コロナ対策について
     url: "./covid19d.html"
   - name: 表紙デザイン募集
