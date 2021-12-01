@@ -79,9 +79,9 @@ WISS2018～WISS2019では，残念ながら正式な登壇発表として採択�
 - 割り当てられたスペースでデモまたはポスターによる発表をしていただきます．
 - 2ページ以内の論文（日本語あるいは英語）をPDFで提出してください．
 - 論文テンプレートは既定のものを利用してください:
-  - [論文テンプレート（Word）](./downloads/WISS_Template_2021_0714_word.docx)
-  - [論文テンプレート（Overleaf）](https://www.overleaf.com/latex/templates/wiss2021-template-demoposutafa-biao-yong/dsnbqyrrftyh)
-  - [論文テンプレート（LaTeX2e）](./downloads/WISS_Template_2021_0714_latex.zip)
+  - [デモ・ポスター用論文テンプレート（Word）](./downloads/WISS_Template_2021_0714_word-nonrefereed.docx)
+  - [デモ・ポスター用論文テンプレート（Overleaf）](https://www.overleaf.com/latex/templates/wiss2021-template-demoposutafa-biao-yong/dsnbqyrrftyh)
+  - [デモ・ポスター用論文テンプレート（LaTeX2e）](./downloads/WISS_Template_2021_0714_latex-nonrefereed.zip)
 - 特別な場合を除き，投稿された原稿がそのままWEBに掲載されますので，誤字脱字や不明瞭な表現が無いよう，十分にチェックの上投稿ください(共著者によるチェックも投稿前に受けてください)．
 - なお，WISS2021ではこれまでと異なり，**参考文献，未来ビジョン，謝辞をページ数に含めない**，としました．これまでページ数を圧迫するからと未来ビジョンを書いていたなかった方は是非未来ビジョンも含めた投稿としてください．
 - 当日展示用のポスターは提出していただく必要はありません．また形式も任意です．
@@ -137,10 +137,18 @@ WISS2018～WISS2019では，残念ながら正式な登壇発表として採択�
 
 ダウンロード時のブラウザはGoogle Chromeを推奨しています．（他ブラウザの場合文字化け等の不具合が生じる可能性があります．）
 
+### 登壇発表用論文テンプレート
 - [WISS2021 MS Word 投稿用スタイルファイル](./downloads/WISS_Template_2021_0714_word.docx) (著者名及び所属を入れてください．)
 - [論文テンプレート（Overleaf）](https://www.overleaf.com/latex/templates/wiss2021-template-deng-tan-fa-biao-yong/wfjtyxsdtvjm)
 - [論文テンプレート（LaTeX2e）](./downloads/WISS_Template_2021_0714_latex.zip)(著者名及び所属を入れてください．Macご利用の方で，コンパイルに失敗する場合はソースコードをutf8に変更して試してみてください)
 - [WISS2021 論文よくあるミス一覧](./downloads/WISS_Template_20210714_errors.pdf)
+
+### デモ・ポスター用論文テンプレート
+- [デモ・ポスター用WISS2021 MS Word 投稿用スタイルファイル](./downloads/WISS_Template_2021_0714_word-nonrefereed.docx) 
+- [デモ・ポスター用論文テンプレート（Overleaf）](https://www.overleaf.com/latex/templates/wiss2021-template-demoposutafa-biao-yong/dsnbqyrrftyh)
+- [デモ・ポスター用論文テンプレート（LaTeX2e）](./downloads/WISS_Template_2021_0714_latex-nonrefereed.zip)
+
+
 
 論文テンプレートに関する注意
 - 原稿フォーマットは下記の論文テンプレート（LaTeX2eのスタイルファイル，またはWordファイル）をご利用ください．PDFのファイルサイズは20Mバイト以下とします．
