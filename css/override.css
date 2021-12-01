@@ -52,8 +52,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .content > h4 {
   font-size: 1.0em;
-  margin-top: 20px;
+  margin-top: 16px;
   margin-bottom: 10px; }
+
+.content > h5 {
+  font-size: 0.8em;
+  margin-top: 14px;
+  margin-bottom: 8px; }
 
 body {
   background-color: #f0f2f5;
@@ -63,8 +68,8 @@ body {
   overflow: hidden;
   position: relative;
   background-color: #445464;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   border-radius: 0rem;
   color: #c8c8c8; }
 
