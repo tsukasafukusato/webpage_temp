@@ -17,11 +17,13 @@
     url: "./design-competition.html"
   - name: WISS Challenge募集
     url: "./challenge.html"
+  - name: 学生アルバイト募集
+    url: "./call-for-studentstaff.html"
   label: for-participants
 - category_name: プログラム
   pages:
-  - name: 全体スケジュール・登壇発表・査読なし発表（準備中）
-    url: ""
+  - name: 全体スケジュール・登壇発表・ロングティザー発表
+    url: "./program.html"
   label: program
 - category_name: 動画中継
   pages:
