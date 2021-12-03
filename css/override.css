@@ -58,7 +58,8 @@ h1, h2, h3, h4, h5, h6 {
 .content > h5 {
   font-size: 0.8em;
   margin-top: 14px;
-  margin-bottom: 8px; }
+  margin-bottom: 12px;
+  border-bottom: solid 2px #1a162e; }
 
 .content > h6 {
   font-size: 0.4em;
@@ -86,6 +87,9 @@ body {
 
 .logo-blue {
   color: #008ca1; }
+
+.row {
+  margin-bottom: 20px; }
 
 table {
   background-color: rgba(200, 200, 200, 0.2);
