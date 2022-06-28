@@ -21,7 +21,7 @@
   hyphens: auto; }
 
 .navbar {
-  background-color: #1a162e !important; }
+  background-color: #445464 !important; }
 
 a {
   transition: ease-in-out color .10s; }
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }
 
 .alert-primary {
-  background-color: #c8d9ea; }
+  background-color: #f2f2f2; }
 
 .content > h1 {
   font-size: 2.3em;
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .content > h2 {
   font-size: 1.5em;
-  border-bottom: solid 2px #1a162e;
+  border-bottom: solid 2px #445464;
   margin-top: 32px;
   margin-bottom: 24px; }
 
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.8em;
   margin-top: 14px;
   margin-bottom: 12px;
-  border-bottom: solid 2px #1a162e; }
+  border-bottom: solid 2px #445464; }
 
 .content > h6 {
   font-size: 0.4em;
@@ -67,13 +67,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 4px; }
 
 body {
-  background-color: #f0f2f5;
-  color: #1a162e; }
+  background-color: #f5fdff;
+  color: #445464; }
 
 .jumbotron {
   overflow: hidden;
   position: relative;
-  background-color: #445464;
+  background-color: #00788d;
   padding-top: 75px;
   padding-bottom: 75px;
   border-radius: 0rem;
@@ -86,25 +86,25 @@ body {
   color: #ae3d64; }
 
 .logo-blue {
-  color: #008ca1; }
+  color: black; }
 
 .row {
   margin-bottom: 20px; }
 
 table {
   background-color: rgba(200, 200, 200, 0.2);
-  border: solid 2px #1a162e;
+  border: solid 2px #445464;
   text-align: center;
   width: 100%;
   height: 50px;
   margin-bottom: 15px; }
 
 td {
-  border: solid 1px #1a162e; }
+  border: solid 1px #445464; }
 
 th {
   background: rgba(150, 150, 150, 0.2);
-  border: solid 1px #1a162e; }
+  border: solid 1px #445464; }
 
 pre {
   background-color: rgba(200, 200, 200, 0.2);
@@ -112,7 +112,7 @@ pre {
 
 footer {
   text-align: left;
-  background-color: #1a162e !important;
+  background-color: #445464 !important;
   color: rgba(255, 255, 255, 0.6);
   margin-top: 64px;
   padding-top: 6em;
