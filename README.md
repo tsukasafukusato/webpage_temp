@@ -1,10 +1,10 @@
-# web2021
+# web2022
 
 ![Build and Deploy](https://github.com/WISSOrg/web2020/workflows/Build%20and%20Deploy/badge.svg)
 
 __Warning: This repository may contain information that has not officially been confirmed.__
 
-WISS 2021 web page.
+WISS 2022 web page.
 
 ## Principles
 
