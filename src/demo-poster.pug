@@ -1,0 +1,46 @@
+- var page_title = "WISS 2022: 第30回インタラクティブシステムとソフトウェアに関するワークショップ"
+
+- 
+  const demo_sessions = [
+    {
+      session: "未定", 
+      talks: [], 
+      session_chair: "未定",
+      time: "未定",
+    },
+  ];
+
+
+doctype html
+html(lang=ja)
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0')
+    include includes/seo
+    title #{page_title}
+    include includes/bootstrap-css
+    link(rel="stylesheet" href="./css/override.css")
+  body
+    include includes/header
+    .container.nav-padding.content
+      h1 デモ・ポスター発表
+      ul
+      .program
+        each session in demo_sessions
+          hr
+          .jumbotron
+            h3 #{session["session"]}
+            ul.list-inline
+              li.list-inline-item <b>日時：</b>#{session["time"]}
+              li.list-inline-item <b>座長：</b>#{session["session_chair"]}
+          each talk in session["talks"]
+            each entry in papers_data
+              if entry["id"] == talk
+                h5 [#{talk}] #{entry["title"]}  
+                h6 #{entry["category"] == "1" ? "<デモポスター>" : entry["category"] == "2" ? "<予稿なしデモポスター>" : entry["category"] == "3" ? "<ロング>" : entry["category"] == "4" ? "<ショート>" : entry["category"] == "5" ? "<ロングティザー>" : ""}
+                p.authors #{entry["authors"]}
+        hr
+        p 
+          small 著者の方へ：ウェブプログラム掲載用のデータの提出・差替を希望する場合はウェブ担当 2022web@wiss.orgへ連絡をお願いします。書誌情報（著者・タイトル等）にかかる変更を希望する場合はプログラム委員長 2022@wiss.org へ連絡をお願いします。
+    include includes/footer
+    include includes/bootstrap-js

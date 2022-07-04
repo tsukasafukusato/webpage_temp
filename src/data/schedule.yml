@@ -1,0 +1,15 @@
+- name: "1日目 (12/14)"
+  content:
+    - time: "XX:XX"
+      title: "未定"
+      duration: "未定"
+- name: "2日目 (12/15)"
+  content:
+    - time: "XX:XX"
+      title: "未定"
+      duration: "未定"
+- name: "3日目 (12/16)"
+  content:
+    - time: "XX:XX"
+      title: "未定"
+      duration: "未定"
