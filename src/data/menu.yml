@@ -11,8 +11,8 @@
   pages:
   - name: 参加募集(準備中)
     url: "./"
-  - name: 表紙デザイン募集(準備中)
-    url: "./"
+  - name: 表紙デザイン募集
+    url: "./design-competition.html"
   - name: WISS Challenge募集(準備中)
     url: "./"
   - name: 学生アルバイト募集(準備中)
