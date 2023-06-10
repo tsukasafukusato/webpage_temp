@@ -21,7 +21,7 @@
   hyphens: auto; }
 
 .navbar {
-  background-color: #445464 !important; }
+  background-color: #180c48 !important; }
 
 a {
   transition: ease-in-out color .10s; }
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .content > h2 {
   font-size: 1.5em;
-  border-bottom: solid 2px #445464;
+  border-bottom: solid 2px #180c48;
   margin-top: 32px;
   margin-bottom: 24px; }
 
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.8em;
   margin-top: 14px;
   margin-bottom: 12px;
-  border-bottom: solid 2px #445464; }
+  border-bottom: solid 2px #180c48; }
 
 .content > h6 {
   font-size: 0.4em;
@@ -67,13 +67,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 4px; }
 
 body {
-  background-color: #f5fdff;
-  color: #445464; }
+  background-color: #f8f6fe;
+  color: #180c48; }
 
 .jumbotron {
   overflow: hidden;
   position: relative;
-  background-color: #00788d;
+  background-color: #9173f0;
   padding-top: 75px;
   padding-bottom: 75px;
   border-radius: 0rem;
@@ -82,29 +82,47 @@ body {
 .nav-padding {
   padding-top: 120px; }
 
-.logo-pink {
-  color: #ae3d64; }
+.logo-1 {
+  color: #dc0a4b; }
 
-.logo-blue {
-  color: black; }
+.logo-2 {
+  color: #14a5c8; }
+
+.logo-3 {
+  color: #e16e9b; }
+
+.logo-4 {
+  color: #73af7d; }
+
+.logo-5 {
+  color: #b43ad7; }
+
+.logo-6 {
+  color: #f06400; }
+
+.logo-7 {
+  color: #22aaa0; }
+
+.logo-8 {
+  color: #faa00a; }
 
 .row {
   margin-bottom: 20px; }
 
 table {
   background-color: rgba(200, 200, 200, 0.2);
-  border: solid 2px #445464;
+  border: solid 2px #180c48;
   text-align: center;
   width: 100%;
   height: 50px;
   margin-bottom: 15px; }
 
 td {
-  border: solid 1px #445464; }
+  border: solid 1px #180c48; }
 
 th {
   background: rgba(150, 150, 150, 0.2);
-  border: solid 1px #445464; }
+  border: solid 1px #180c48; }
 
 pre {
   background-color: rgba(200, 200, 200, 0.2);
@@ -112,7 +130,7 @@ pre {
 
 footer {
   text-align: left;
-  background-color: #445464 !important;
+  background-color: #180c48 !important;
   color: rgba(255, 255, 255, 0.6);
   margin-top: 64px;
   padding-top: 6em;
