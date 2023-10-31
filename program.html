@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="WISS 2023: 第31回インタラクティブシステムとソフトウェアに関するワークショップ">
+    <meta name="twitter:description" content="WISSは，インタラクティブシステムにおける未来を切り拓くような新しいアイデア・技術を議論するワークショップです．この分野において国内でもっともアクティブな学術会議のひとつであり，例年150名以上の参加者が朝から深夜まで活発で意義深い情報交換を行っています．さまざまなバックグラウンドをもった方々からの積極的な論文投稿及び参加をお待ちしています．">
+    <meta name="twitter:url" content="https://wiss.org/WISS2023/">
+    <meta name="twitter:image" content="https://wiss.org/WISS2023/assets/logo/twitter-card.png">
+    <meta name="twitter:site" content="@wiss_official">
+    <meta name="twitter:image:alt" content="WISS 2022">
+    <title>WISS 2023: 第31回インタラクティブシステムとソフトウェアに関するワークショップ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/override.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container"><a class="navbar-brand" href="./"><b><span class="logo-1">W</span><span class="logo-2">I</span><span class="logo-3">S</span><span class="logo-4">S</span><span class="logo-5">2</span><span class="logo-6">0</span><span class="logo-7">2</span><span class="logo-8">3</span></b></a>
+          <!--a(href="./").navbar-brand <b><span class="logo-white">WISS</span> <span class="logo-green">2023</span></b>-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-menu" aria-controls="navbars-menu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbars-menu">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-for-authors">著者の方へ</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-for-authors"><a class="dropdown-item" href="./call-for-papers.html">論文募集</a><a class="dropdown-item" href="./review-policy.html">査読方針</a><a class="dropdown-item" href="./review-form.html">査読フォーム</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-for-participants">参加募集</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-for-participants"><a class="dropdown-item" href="./call-for-participants.html">参加募集</a><a class="dropdown-item" href="./design-competition.html">表紙デザイン募集</a><a class="dropdown-item" href="./challenge.html">WISS Challenge募集</a><a class="dropdown-item" href="./call-for-studentvolunteer.html">学生ボランティア募集</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-program">プログラム</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-program"><a class="dropdown-item" href="./program.html">全体スケジュール・登壇発表・ロングティザー発表</a><a class="dropdown-item" href="./">デモ・ポスター発表（準備中）</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-live-streaming">動画中継</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-live-streaming"><a class="dropdown-item" href="./">1日目（準備中）</a><a class="dropdown-item" href="./">2日目（準備中）</a><a class="dropdown-item" href="./">3日目（準備中）</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-proceedings">予稿集</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-proceedings"><a class="dropdown-item" href="./">ウェブ予稿集（準備中）</a><a class="dropdown-item" href="./">電子予稿集（準備中）</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-about-wiss">WISSについて</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-about-wiss"><a class="dropdown-item" href="./">表彰（準備中）</a><a class="dropdown-item" href="./archive.html">過去のWISS</a><a class="dropdown-item" href="https://twitter.com/wiss_official">公式ツイッター</a><a class="dropdown-item" href="./committee.html">WISS委員一覧</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container nav-padding content">
+      <h1>全体スケジュール</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <table class="table table-hover" style="margin-bottom: 48px;">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col" colspan="2">1日目 (11/29)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>13:00</td>
+                <td>オープニング <small>[45分]</small></td>
+              </tr>
+              <tr>
+                <td>13:45</td>
+                <td>セッション1: 身体 <small>[55分]</small></td>
+              </tr>
+              <tr>
+                <td>14:40</td>
+                <td>休憩 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>15:10</td>
+                <td>セッション2: 学習 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>15:55</td>
+                <td>休憩 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>16:25</td>
+                <td>デモプレビュー1 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>16:55</td>
+                <td>デモセッション1 <small>[90分]</small></td>
+              </tr>
+              <tr>
+                <td>18:25</td>
+                <td>夕食他 <small>[125分]</small></td>
+              </tr>
+              <tr>
+                <td>20:30</td>
+                <td>ナイトセッション <small>[210分]</small></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-4">
+          <table class="table table-hover" style="margin-bottom: 48px;">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col" colspan="2">2日目 (11/30)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>09:00</td>
+                <td>セッション3: 表現 <small>[60分]</small></td>
+              </tr>
+              <tr>
+                <td>10:00</td>
+                <td>休憩 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>10:30</td>
+                <td>セッション4: 国際学会・国際論文誌採択論文発表 <small>[90分]</small></td>
+              </tr>
+              <tr>
+                <td>12:00</td>
+                <td>昼食 <small>[65分]</small></td>
+              </tr>
+              <tr>
+                <td>13:05</td>
+                <td>セッション5: 誘い <small>[55分]</small></td>
+              </tr>
+              <tr>
+                <td>14:00</td>
+                <td>休憩 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>14:30</td>
+                <td>セッション6: 入力手法 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>15:00</td>
+                <td>ロングティザー <small>[25分]</small></td>
+              </tr>
+              <tr>
+                <td>15:25</td>
+                <td>休憩 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>15:55</td>
+                <td>スポンサープレゼン <small>[25分]</small></td>
+              </tr>
+              <tr>
+                <td>16:20</td>
+                <td>デモプレビュー2 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>16:55</td>
+                <td>デモセッション2 <small>[90分]</small></td>
+              </tr>
+              <tr>
+                <td>18:20</td>
+                <td>夕食他 <small>[130分]</small></td>
+              </tr>
+              <tr>
+                <td>20:30</td>
+                <td>ナイトセッション <small>[210分]</small></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-4">
+          <table class="table table-hover" style="margin-bottom: 48px;">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col" colspan="2">3日目 (12/1)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>09:00</td>
+                <td>デモプレビュー3 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>09:00</td>
+                <td>デモセッション3 <small>[90分]</small></td>
+              </tr>
+              <tr>
+                <td>11:00</td>
+                <td>休憩 <small>[15分]</small></td>
+              </tr>
+              <tr>
+                <td>11:15</td>
+                <td>投票・アンケート記入，タウンホールミーティング，クロージング <small>[45分]</small></td>
+              </tr>
+              <tr>
+                <td>12:00</td>
+                <td>解散 <small>[10分]</small></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <h1>登壇発表・ロングティザー発表</h1>
+      <ul>
+        <li>登壇発表（ロング発表）：<b>25分</b> <small>[発表15分・質疑10分]</small></li>
+        <li>登壇発表（ショート発表）：<b>15分</b> <small>[発表10分・質疑5分]</small></li>
+        <li>登壇発表（議論枠発表）：<b>15分</b> <small>[発表7.5分・質疑7.5分]</small></li>
+        <li>ロングティザー発表：<b>5分</b> <small>[発表5分・議論をセッションごとにまとめて実施]</small></li>
+        <li>ロングティザー発表：<b>10分</b> <small>[発表10分・議論をセッションごとにまとめて実施]</small></li>
+      </ul>
+      <div class="program">
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション1: 身体</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>未定</li>
+            <li class="list-inline-item"><b>チャット座長：</b>未定</li>
+          </ul>
+        </div>
+        <h4>[01] VR百人一首かるたにおける札取り動作の数理モデル解析とそのゲームスキル調整への応用 <span class="badge badge-short">ショート発表</span></h4>
+        <p class="authors">丸山礼華(津田塾大), 栗原一貴(津田塾大学), 山中祥太(ヤフー株式会社)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>本論文ではVR百人一首かるたにおける新しいゲームスキル調整方法を検討する．実験データの解析の結果，手で札を取る動作は，Fittsの法則のモデルに高い適合度を示した．またプレイヤが適切だと感じられるパラメータ変更の条件を得た．この範囲で手の大きさや札の大きさ及び札までの距離を変更することは，試合に十分影響を与える調整量となり，札を取る所要時間を制御し対戦者間の実力差を縮める手法として活用できる可能性が示唆された．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> VR環境での百人一首を題材に，プレイヤー間の難易度を平滑化することを目指し，個々のプレイヤーに与えられている視覚情報（手の大きさ，札の大きさ）を変動させることによってゲームの難易度を調整する手法を提案し，その効果を実証的に検証しています． 当該手法による難易度の変化を丁寧に評価し，かつユーザが不満や不適切に思わない範囲でも十分な難易度調整が可能であることを示しており，有用性の極めて高い知見を提供していることを踏まえると，採択にふさわしい論文であると思います．</p>
+          </div>
+        </div>
+        <h4>[02] VRリダイレクションを用いたゴルフスイングトレーニングシステム <span class="badge badge-long">ロング発表</span></h4>
+        <p class="authors">余志皓(東工大), 廖振傑(東工大), 小池英樹(東工大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Coming Soon</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本研究では、VRリダイレクション技術を活用したゴルフスイング矯正システムを提案しています。VR内の仮想のゴルフボールが打者のスイングに応じて前方へ移動し、打者はこれに合わせてスイングを調整します。結果として頭の上へと振り上げるover-the-topスイングが改善し、クラブが正確にボールに当たるように矯正されていきます。このアプローチはユーザ実験で有用性が確認され、論文中では現システムの課題と展望も示されていました。論文の記述に改善の余地はありますが、採録（ショート）で問題ないと判定しました。</p>
+          </div>
+        </div>
+        <h4>[03] 拡張現実を用いた姿勢可視化によるスキートレーニングシステム <span class="badge badge-long">ロング発表</span></h4>
+        <p class="authors">松本高(東工大), Erwin Wu(東工大, 華為技術日本株式会社), Chen-Chieh Liao(東工大), 小池 英樹 (東工大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/03.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>本論文では, シースルー型HMDを用いたARスキートレーニングシステムを提案する. 提案システムでは, 滑走姿勢を改善するための3種類の視覚的フィードバックをリアルタイムに提示する. 評価実験によれば, ユーザの背骨を可視化する手法は従来手法よりも約7％姿勢が改善され, 最も高いパフォーマンスが得られることが示された. 最後に, 実際のスロープ上でのパイロットテストにより, 実環境においても提案システムが適用できることを確認した.</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本稿は，拡張現実を用いたスキートレーニングにおける姿勢を可視化する手法とその効果についての論文です．手法に強烈な目新しさはありませんが，スキーという対象に合わせて効果を有することが期待される表現をシンプルにまとめ，納得度合いの高い評価を重ねて知見を得ていることから，採択に足る論文であると判断しました．</p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション2: 学習</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>未定</li>
+            <li class="list-inline-item"><b>チャット座長：</b>未定</li>
+          </ul>
+        </div>
+        <h4>[04] Smart Replay:Eラーニング動画における視覚的・時間的アクセシビリティ <span class="badge badge-short">ショート発表</span></h4>
+        <p class="authors">SECHAYK Yotam(東大)，SHAMIR Ariel(Reichman University)，五十嵐健夫(東大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Coming Soon</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> ラーニングのようなビデオコンテンツによる学習時の資料とチャプターの概要、自らのペースに合わせてビデオの再生をコントロールできる等の機能が搭載されたシステムを提案しており、システムの技術的な内容は一定の評価ができます。事前調査によってシステムの要件の洗い出しをしていることも好感を持てます。一方で、提出された論文については出版前に十分な推敲が必要であると判断し、ショート採録（採録条件あり）と判定します。</p>
+          </div>
+        </div>
+        <h4>[05] プログラミング初学者の課題解決方針の立案能力を高める選択肢タップ式学習支援システム <span class="badge badge-short">ショート発表</span></h4>
+        <p class="authors">岡大貴(神戸大)，大西鮎美(神戸大)，西田健志(神戸大)，寺田努(神戸大)，塚本昌彦(神戸大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Coming Soon</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 具体的なプログラミング言語でのコーディングより前に、自然言語で解決方針・手順を立案することが重要であり、少ない選択肢から選び、誤りに気づいたらすぐ手戻りするという試行錯誤を行う、というアイデアは興味深く、新規性も認められます。 しかしながら、試行錯誤の高速化がどのように達成されているのか、学習者がどのような気づきを得て選択肢を修正するのかが不明瞭なことと、最初に自然言語で検討することをかえって難しく感じてしまう初学者もいるのではないかといったことが査読者間および判定会議で議論となりました。 結果として、本論文は議論枠での採録となりました。発表に当たっては、学習者がどのように選択肢を操作し、どのような表示を見て誤りに気づいて修正するのか、具体的な操作が分かるようにご留意ください。</p>
+          </div>
+        </div>
+        <h4>[06] AR ハンドとEMSによる手指の同期を用いた遠隔でのピアノ演奏指導 <span class="badge badge-short">ショート発表</span></h4>
+        <p class="authors">守新太郎(筑波大)，井原圭一(筑波大)，川口一画(筑波大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Coming Soon</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> ピアノ学習者に対する遠隔指導手法として一定の新規性がある点，提案手法や実装を中心に論文の記述が明瞭である点が評価されました．一方，「EMSの性能や設計意図の記述不足」「タイミング制御手法の記述不足」「一部参考文献の不足」等が指摘されたため，ショート採録（条件付き）と判定します．</p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション3: 表現</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>未定</li>
+            <li class="list-inline-item"><b>チャット座長：</b>未定</li>
+          </ul>
+        </div>
+        <h4>[07] EmoCast: 顔への表情変化情報投影による話し相手の印象向上システム <span class="badge badge-short">ショート発表</span></h4>
+        <p class="authors">浅野恭志(神戸大)，大西鮎美(神戸大)，寺田努(神戸大)，塚本昌彦(神戸大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Coming Soon</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 頭部に装着したウェアラブルデバイスにより表情の画像認識し、プロジェクションを行うことで表情の改変を行う技術について提案、検討したものである。 有用性の評価手法に不明瞭な点があるものの、提案の新規性は認められる。 その「荒削り」さにより、「根本的な課題解決になっているのか」、「装備や技術の進歩によって将来的には表現力が高まり不自然さが軽減されるのか」等、活発な議論が想定される。 以上の結果から、議論枠採録と判断された。</p>
+          </div>
+        </div>
+        <h4>[08] Taste Time Machine : 飲食物を過去や未来の味に変える装置の実現に向けて <span class="badge badge-short">ショート発表</span></h4>
+        <p class="authors">宮下芳明(明治大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Coming Soon</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 図や記述のクオリティは少し低いが，ワークショップ論文としては内容が面白いため，レビュア全員ポジティブな判定をしており，また，委員会においてもその評価は一致していたため，ショート採録となった．</p>
+          </div>
+        </div>
+        <h4>[09] インスタントなシャボン膜凍結ディスプレイの提案 <span class="badge badge-short">ショート発表</span></h4>
+        <p class="authors">橋本侑樹(北陸先端大)，西村晶太郎(北陸先端大)，寺澤真一郎(北陸先端大)，大塚眞柊(北陸先端大)，佐藤俊樹(北陸先端大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Coming Soon</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本論文は提案手法自体の新規性は認められるものの、査読論文としての完成度が十分でないためシェファーディング対象となりました。著者はシェファーディングの方針に対して「その方針を受け入れるか否か」を選択できます。シェファーディングの方針はレビューサマリに記述します。 方針が受け入れられない場合 →本論文は不採録となります。 方針を受け入れる場合 →論文を方針に従って改稿していただき10月25日17:00（JST）までに再提出してください。再提出された論文が出版に十分な品質であると担当者が判断した場合には本論文はショート採録となります。採録通知後、カメラレディを31日までに提出してください。</p>
+          </div>
+        </div>
+        <h4>[10] 導電性・強磁性・弾性を持つ毛構造の造形手法の提案 <span class="badge badge-short">ショート発表</span></h4>
+        <p class="authors">鎌田航誠(はこだて未来大)，高橋治輝(はこだて未来大)，塚田浩二(はこだて未来大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Coming Soon</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> おめでとうございます。本論文はプログラム委員会で審議された結果、ショート再録（再録条件あり）の判定となりました。 カメラレディの原稿作成に向けてすべての査読コメントを参考にしていただきたいと思いますが、再録条件として特にタイトルについて再考いただきたいです。私のレビューコメントの繰り返しになりますが、本研究は（特に導電性・強磁性について）「毛構造の造形手法の提案」になっているとは言えないと思われます。レビューコメントを参照いただき、適切と思われるタイトルに変更してください。 ただ、どういうタイトルなら良いのかという基準が不明瞭かもしれませんし、ご異論があるかもしれません。そういった場合はぜひメタにご相談いただけると幸いです。</p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション4: 国際学会・国際論文誌採択論文発表</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>未定</li>
+            <li class="list-inline-item"><b>チャット座長：</b>未定</li>
+          </ul>
+        </div>
+        <h4>[11] eat2pic: An Eating-Painting Interactive System to Nudge Users into Making Healthier Diet Choices <span class="badge badge-int">国際発表</span></h4>
+        <p class="authors">中村 優吾（九大），中岡 黎，松田 裕貴，安本 慶一（奈良先端大）</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Coming Soon</p>
+          </div>
+          <div class="col-md-4">
+            <h5>国際学会・国際論文誌名</h5>
+            <p> Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</p>
+          </div>
+        </div>
+        <h4>[12] PianoSyncAR: Enhancing Piano Learning through Visualizing Synchronized Hand Pose Discrepancies in Augmented Reality <span class="badge badge-int">国際発表</span></h4>
+        <p class="authors">Liu Ruofan（東工大），Erwin Wu（Huawei Japan），Chen-Chieh Liao（東工大），西岡 勇人，古屋 晋一（Sony Computer Science Laboratories），小池 英樹（東工大）</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/12.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>運動の技能習得において, 学習者が自身の動作と目標の動作との時間的及び空間的な差分を認識し学習することが一般的である. しかし, 自由度の高い緻密な動作では, これらの差分を正しく理解し修正することが困難である. 特に洗練されたスキルを持つ中上級者の場合では, より細かな修正やさらなる上達を求められるため, この問題は顕著となる. 本研究では, ピアノの学習における体の動きを効率よく最適化するための拡張現実(AR)システム「PianoSyncAR」を提案する. 提案システムは, 教師の手の姿勢を学習者の手に重畳表示している. ユーザ実験では, １２人のピアニストを対象としてシステムの有用性を評価する. その結果, 映像ベースのスキル学習方法である従来のタブレット画面に対して提案システムにはいくつかの利点が示され, ピアノ演奏の技術向上のための補助的なツールとしてARトレーニングの可能性を示している. </p>
+          </div>
+          <div class="col-md-4">
+            <h5>国際学会・国際論文誌名</h5>
+            <p> ISMAR2023</p>
+          </div>
+        </div>
+        <h4>[13] CatAlyst: Domain-Extensible Intervention for Preventing Task Procrastination Using Large Generative Models <span class="badge badge-int">国際発表</span></h4>
+        <p class="authors">矢倉 大夢（筑波大），荒川 陸（カーネギーメロン大），後藤 真孝（産総研）</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/13.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>本論文では，大規模生成モデルを用いて知的タスクの「Procrastination（先延ばし）」を減らすインタラクションシステムCatAlystについて述べる．CatAlystは先延ばししようとしているタスクへのエンゲージメントを高めるべく，中断した作業内容の続きを生成モデルで生成して提示する．これは，大規模生成モデルを個々のタスクに合わせてチューニングせずとも，ユーザの行動変容を促す介入として用いることで，多様なタスクでユーザの知的生産活動を支援するというアプローチとなっている．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>国際学会・国際論文誌名</h5>
+            <p> CHI2023</p>
+          </div>
+        </div>
+        <h4>[14] BirdViewAR: Surroundings-aware Remote Drone Piloting Using an Augmented Third-person Perspective <span class="badge badge-int">国際発表</span></h4>
+        <p class="authors">井上 理哲人，高嶋 和毅，藤田 和之，北村 喜文（東北大）</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/14.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>我々は拡張三人称視点を用いてドローンパイロットの遠隔操縦時における周囲状況理解を支援するシステム，BirdViewARを提案する．提案手法では，パイロットが操縦する主ドローンの上空にもう1台副ドローンを追従飛行させ，そこから得られる三人称視点にARで空間情報を重畳することで，パイロットの空間理解を向上させる．また，副ドローンを最適配置することで，常に主ドローンやその目的地を映した三人称視点を提示する．屋外での被験者実験の結果，提案手法はパイロットの状況理解を向上させることが示された．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>国際学会・国際論文誌名</h5>
+            <p> CHI2023</p>
+          </div>
+        </div>
+        <h4>[15] PathFinder: Designing a Map-less Navigation System for Blind People in Unfamiliar Buildings <span class="badge badge-int">国際発表</span></h4>
+        <p class="authors">栗林 雅希（早大），石原 辰也（日本IBM），佐藤 大介（カーネギーメロン大），Jayakorn Vongkulbhisal（日本IBM），Ram Karnik（カーネギーメロン大），粥川 青汰（早大），髙木 啓伸（日本IBM），森島 繁生（早大），浅川 智恵子（日本IBM・カーネギーメロン大）</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/15.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>案内ロボットは視覚障害者の移動支援技術として有効であるが，事前に地図を準備する手間がかかる．本研究では，事前に地図を必要とせず，途中の交差点の形状や看板に書いてある文字を読み上げることで視覚障害者が建物内を移動することを支援する案内ロボットを提案する．ユーザの主観評価から，提案手法を使うことで，自信を持って不慣れな建物で目的地まで行くことが出来ることが示された．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>国際学会・国際論文誌名</h5>
+            <p> CHI2023</p>
+          </div>
+        </div>
+        <h4>[16] asEars: Designing and Evaluating the User Experience of Wearable Assistive Devices for Single-Sided Deafness <span class="badge badge-int">国際発表</span></h4>
+        <p class="authors">高木 健，野﨑 悦，金井 智美，ハウタサーリ アリ，樫尾 明憲（東大），佐藤 大介（カーネギーメロン大），鴨頭 輝（東大），浦中 司（虎の門病院耳鼻咽喉科），浦田 真次，小山 一（東大），山岨 達也（東京逓信病院耳鼻咽喉科），川原 圭博（東大）</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Coming Soon</p>
+          </div>
+          <div class="col-md-4">
+            <h5>国際学会・国際論文誌名</h5>
+            <p> CHI2023</p>
+          </div>
+        </div>
+        <h4>[17] Inkjet 4D Print: Self-folding Tessellated Origami Objects by Inkjet UV Printing <span class="badge badge-int">国際発表</span></h4>
+        <p class="authors">鳴海 紘也，小山 和紀，須藤 海，野間 裕太（東大），佐藤 宏樹（宮城大），舘 知宏（東大），杉本 雅明（エレファンテック），五十嵐 健夫，川原 圭博（東大）</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/17.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Inkjet 4D Printとは，熱収縮するシートの表裏にインクジェット方式のUVプリンタで2次元パターンを印刷し，その後シート全体を加熱することによって，3次元の折紙テセレーションを得る自己折り技術である．本技術はFDM方式の3Dプリンタなどを用いた従来手法に比べ(1)1200倍以上である8万個以上の面を折ることができ，(2)2.8倍高速に造形でき，(3)必要に応じてフルカラー装飾を付与できる．また，与えられた3Dモデルに折れる印刷パターンを自動設計するツールも開発した．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>国際学会・国際論文誌名</h5>
+            <p> ACM Transactions on Graphics</p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション5: 誘い</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>未定</li>
+            <li class="list-inline-item"><b>チャット座長：</b>未定</li>
+          </ul>
+        </div>
+        <h4>[18] MusicCommentVisualizer: 音楽動画へのコメントの可視化に基づく音楽推薦・鑑賞インタフェース <span class="badge badge-long">ロング発表</span></h4>
+        <p class="authors">倉持友哉(筑波大)，濱崎雅弘(産総研)，中野倫靖(産総研)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/18.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>本研究では、音楽動画に対するYouTubeコメントを可視化しながら，ユーザの状況や感情に合った音楽推薦と音楽鑑賞を実現するインタフェースMusicCommentVisualizerを提案する．システムは音楽動画へのコメントから，状況と感情に関する単語を自動的に抽出して分類し，インタラクティブに操作可能な出現頻度分布として可視化する．さらに，その分布からユーザによって選択された状況と感情に基づいて，音楽プレイリストを生成したり，それらの楽曲が推薦された理由となるコメントを表示したりできる．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本研究では音楽動画へのコメントを利用した音楽推薦・鑑賞インタフェースを提案されています。ソーシャルコメントを元に感情と状況の２つの側面で分類しユーザーの状態に合わせて音楽を推薦するシステムは一定の新規性が認められます。有用性が確認できない点やアルゴリズムの詳細説明が不足している点など懸念はあるものの、提案システムのクオリティは高く、不採録とするほどの際立った問題はないと判断し、ショート採録と判定されました。</p>
+          </div>
+        </div>
+        <h4>[19] 潜在空間の関心次元探索によるスワイプ操作に基づく嗜好画像生成 <span class="badge badge-long">ロング発表</span></h4>
+        <p class="authors">中島柚斗(東大)，楊明哲(東大)，馬場雪乃(東大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/19.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>スマートフォンを用いてユーザの好みの画像（嗜好画像）を生成する新しい方法を提案する。ユーザはスワイプ操作によって画像の好き嫌いを表現する。その情報を基に、システムはユーザの好みを推定し、新しい画像を生成する。提案手法では、PCA分析と多腕バンディットアルゴリズムを利用して、GANの潜在空間を効率的に探索する。実験の結果、提案手法はベースラインと比較して、効率的に嗜好画像を生成できることがわかった。また、ユーザの嗜好は画像の比較によって動的に変化することなどを明らかにした。</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> GANによる嗜好画像生成におけるユーザの嗜好を，スワイプ操作を用いて効率的に行う手法を提案し，その手法に沿った生成アルゴリズムとして多腕バンディットアルゴリズムを適用することで，シンプルなベイズ最適化手法よりもよりユーザの嗜好性を反映した画像を生成できることを示している論文です． </p>
+          </div>
+        </div>
+        <h4>[20] 動いている人の視線だけを惹きつけるモザイク投影手法 <span class="badge badge-long">ロング発表</span></h4>
+        <p class="authors">幸谷有紗(東工大)，戛山英高(東工大)，浦垣啓志郎(東工大)，宮藤詩緒(東工大)，小池 英樹(東工大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Coming Soon</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 高速のプロジェクタでモザイク状の模様を高速に変化させて投影することで、ユーザ側に特殊な装置を必要とせず、動いている人にだけ注目を集めるような情報提示手法を提案している。有用性の立証が不十分であるものの、新しい手法の提案としてはWISSで議論する意義があるという結論になった。以上の結果から、ショート採録（条件なし）と判断された。 </p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション6: 入力手法</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>未定</li>
+            <li class="list-inline-item"><b>チャット座長：</b>未定</li>
+          </ul>
+        </div>
+        <h4>[21] LensTouch: スマートグラスのレンズ面を使った入力手法 <span class="badge badge-long">ロング発表</span></h4>
+        <p class="authors">川崎竜也(芝浦工大)，真鍋宏幸(芝浦工大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/21.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>スマートグラスは，AR体験や大画面での映画観賞などを可能にするデバイスである．主な入力手法として，音声やジェスチャでの入力があるが，いずれも入力の制限や入力速度の遅さなどの問題がある．この問題に対し本論文では，レンズ面でタッチ入力を行うことでスマートグラスへの入力語彙を増やすLensTouchを提案し，実装，評価実験を行った．また，アプリケーション例としてテキスト入力，音楽プレーヤ，ゲームの3つを作成した．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> Coming soon</p>
+          </div>
+        </div>
+        <h4>[22] スマートウォッチの加速度センサを用いたThumb-to-fingerジェスチャ認識に基づく片手文字入力手法 <span class="badge badge-long">ロング発表</span></h4>
+        <p class="authors">角田陸(筑波大)，志築文太郎(筑波大)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/placeholder.jpg"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Coming Soon</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 不明瞭な点はあるものの，ジェスチャのデザイン，予備評価による適切なジェスチャセットの選定，評価実験と丁寧に書かれており，スマートウォッチ内蔵センサのみを用いたハンドジェスチャの提案として充分採録に値するとすべての査読者に判断されました． </p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>ロングティザー</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>未定</li>
+            <li class="list-inline-item"><b>チャット座長：</b>未定</li>
+          </ul>
+        </div>
+        <h4>[T01] 可食レンチキュラレンズデザインシステムの提案</h4>
+        <p class="authors">吉本健義(明大), 村上崇斗(明大), 宮下芳明(明大)</p>
+        <h4>[T02] 脳神経外科医のためのMR縫合訓練システム</h4>
+        <p class="authors">田代優香(東工大), 宮藤詩緒, 清藤哲史(東工大), 金太一(東大医学部脳神経外科) 五十嵐健夫(東大) 小池英樹(東工大)</p>
+        <h4>[T03] Gino .Posture:MR向け姿勢誘導システム</h4>
+        <p class="authors">鈴木湧登(北大), 坂本大介(北大), 小野哲雄(北大)</p>
+        <h4>[T04] 動的に押し心地が変化する押しボタンの提案</h4>
+        <p class="authors">田原和真(はこだて未来大), 塚田浩二(はこだて未来大)</p>
+        <h4>[T05] PhotoelasticHair: 皮膚を通したセンシングが可能な埋め込み式毛状センサ</h4>
+        <p class="authors">原田雅文(北陸先端大), 遠藤暁友(電通大), 深代悠太(電通大), 佐藤俊樹(北陸先端大)</p>
+        <hr>
+        <p> <small>著者の方へ：ウェブプログラム掲載用のデータの提出・差替を希望する場合はウェブ担当 2023web@wiss.orgへ連絡をお願いします。書誌情報（著者・タイトル等）にかかる変更を希望する場合はプログラム委員長 2023@wiss.org へ連絡をお願いします。</small></p>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm">
+            <h2>著者の方へ</h2>
+            <ul class="list-unstyled">
+              <li><a href="./call-for-papers.html">論文募集</a></li>
+              <li><a href="./review-policy.html">査読方針</a></li>
+              <li><a href="./review-form.html">査読フォーム</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-sm">
+            <h2>参加募集</h2>
+            <ul class="list-unstyled">
+              <li><a href="./call-for-participants.html">参加募集</a></li>
+              <li><a href="./design-competition.html">表紙デザイン募集</a></li>
+              <li><a href="./challenge.html">WISS Challenge募集</a></li>
+              <li><a href="./call-for-studentvolunteer.html">学生ボランティア募集</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-sm">
+            <h2>プログラム</h2>
+            <ul class="list-unstyled">
+              <li><a href="./program.html">全体スケジュール・登壇発表・ロングティザー発表</a></li>
+              <li><a href="./">デモ・ポスター発表（準備中）</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-sm">
+            <h2>動画中継</h2>
+            <ul class="list-unstyled">
+              <li><a href="./">1日目（準備中）</a></li>
+              <li><a href="./">2日目（準備中）</a></li>
+              <li><a href="./">3日目（準備中）</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-sm">
+            <h2>予稿集</h2>
+            <ul class="list-unstyled">
+              <li><a href="./">ウェブ予稿集（準備中）</a></li>
+              <li><a href="./">電子予稿集（準備中）</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-sm">
+            <h2>WISSについて</h2>
+            <ul class="list-unstyled">
+              <li><a href="./">表彰（準備中）</a></li>
+              <li><a href="./archive.html">過去のWISS</a></li>
+              <li><a href="https://twitter.com/wiss_official">公式ツイッター</a></li>
+              <li><a href="./committee.html">WISS委員一覧</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="text-center">&copy; WISS 2023実行委員会</p>
+        <p class="text-center">Contribute to this page on <a href="https://github.com/WISSOrg/web2023">GitHub</a> (PRs welcome).</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
