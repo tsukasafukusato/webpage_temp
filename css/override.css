@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }
 
 .alert-primary {
-  background-color: #f2f2f2; }
+  background-color: #f7f1ed; }
 
 .content > h1 {
   font-size: 2.3em;
@@ -67,17 +67,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 4px; }
 
 body {
-  background-color: #f8f6fe;
+  background-color: #fcf8f8;
   color: #180c48; }
 
 .jumbotron {
   overflow: hidden;
   position: relative;
-  background-color: #9173f0;
+  background-color: #f7ebeb;
   padding-top: 75px;
   padding-bottom: 75px;
   border-radius: 0rem;
-  color: #c8c8c8; }
+  color: #573827; }
 
 .nav-padding {
   padding-top: 120px; }
