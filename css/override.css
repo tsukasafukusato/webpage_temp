@@ -73,38 +73,39 @@ body {
 .jumbotron {
   overflow: hidden;
   position: relative;
-  background-color: #f7ebeb;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 10px;
   border-radius: 0rem;
+  font-size: 3.3em;
   color: #573827; }
 
 .nav-padding {
   padding-top: 120px; }
 
 .logo-1 {
-  color: #dc0a4b; }
+  color: #ffffff; }
 
 .logo-2 {
-  color: #14a5c8; }
+  color: #ffffff; }
 
 .logo-3 {
-  color: #e16e9b; }
+  color: #ffffff; }
 
 .logo-4 {
-  color: #73af7d; }
+  color: #ffffff; }
 
 .logo-5 {
-  color: #b43ad7; }
+  color: #ffffff; }
 
 .logo-6 {
-  color: #f06400; }
+  color: #ffffff; }
 
 .logo-7 {
-  color: #22aaa0; }
+  color: #ffffff; }
 
 .logo-8 {
-  color: #faa00a; }
+  color: #ffffff; }
 
 .row {
   margin-bottom: 20px; }
@@ -126,7 +127,29 @@ th {
 
 pre {
   background-color: rgba(200, 200, 200, 0.2);
-  padding: 12px; }
+  padding: 12px; 
+}
+
+ul {
+  margin-top: 0rem;
+  margin-bottom:0rem
+}
+
+li {
+  margin-top: 1rem;
+  margin-bottom:0rem
+}
+
+ul.target {
+  margin-top: 0rem;
+  margin-bottom:0rem
+}
+
+ul.target li{
+  margin-top: 0rem;
+  margin-bottom:0rem
+}
+
 
 footer {
   text-align: left;
